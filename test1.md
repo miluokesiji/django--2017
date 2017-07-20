@@ -196,4 +196,4 @@ list.copy\(\)
 
 列表方法示例：
 
-
+![image](https://github.com/miluokesiji/django--2017/blob/master/git1.jpg)
