@@ -1,76 +1,149 @@
-  
-@font-face{  
-font-family:"Times New Roman";  
-}  
-  
-@font-face{  
-font-family:"宋体";  
-}  
-  
-@font-face{  
-font-family:"Calibri";  
-}  
-  
-@font-face{  
-font-family:"微软雅黑";  
-}  
-  
-@font-face{  
-font-family:"Tahoma";  
-}  
-  
-@font-face{  
-font-family:"Courier New";  
-}  
-  
-p.MsoNormal{  
-mso-style-name:正文;  
-mso-style-parent:"";  
-margin-bottom:10.0000pt;  
-mso-layout-grid-align:none;  
-layout-grid-mode:char;  
-font-family:Tahoma;  
-mso-fareast-font-family:微软雅黑;  
-mso-bidi-font-family:'Times New Roman';  
-font-size:11.0000pt;  
-}  
-  
-h1{  
-mso-style-name:"标题 1";  
-mso-style-next:正文;  
-margin-top:17.0000pt;  
-margin-bottom:16.5000pt;  
-mso-layout-grid-align:none;  
-layout-grid-mode:char;  
-page-break-after:avoid;  
-mso-pagination:lines-together;  
-mso-outline-level:1;  
-line-height:240%;  
-font-family:Tahoma;  
-mso-fareast-font-family:微软雅黑;  
-mso-bidi-font-family:'Times New Roman';  
-font-weight:bold;  
-font-size:22.0000pt;  
-mso-font-kerning:22.0000pt;  
-}  
-  
-span.msoIns{  
-mso-style-type:export-only;  
-mso-style-name:"";  
-text-decoration:underline;  
-text-underline:single;  
-color:blue;  
-}  
-  
-span.msoDel{  
-mso-style-type:export-only;  
-mso-style-name:"";  
-text-decoration:line-through;  
-color:red;  
-}  
-@page{mso-page-border-surround-header:no;  
-	mso-page-border-surround-footer:no;}@page Section0{  
-}  
+
+  
+@font-face{
+  
+font-family:"Times New Roman";
+  
+}
+  
+
+  
+@font-face{
+  
+font-family:"宋体";
+  
+}
+  
+
+  
+@font-face{
+  
+font-family:"Calibri";
+  
+}
+  
+
+  
+@font-face{
+  
+font-family:"微软雅黑";
+  
+}
+  
+
+  
+@font-face{
+  
+font-family:"Tahoma";
+  
+}
+  
+
+  
+@font-face{
+  
+font-family:"Courier New";
+  
+}
+  
+
+  
+p.MsoNormal{
+  
+mso-style-name:正文;
+  
+mso-style-parent:"";
+  
+margin-bottom:10.0000pt;
+  
+mso-layout-grid-align:none;
+  
+layout-grid-mode:char;
+  
+font-family:Tahoma;
+  
+mso-fareast-font-family:微软雅黑;
+  
+mso-bidi-font-family:'Times New Roman';
+  
+font-size:11.0000pt;
+  
+}
+  
+
+  
+h1{
+  
+mso-style-name:"标题 1";
+  
+mso-style-next:正文;
+  
+margin-top:17.0000pt;
+  
+margin-bottom:16.5000pt;
+  
+mso-layout-grid-align:none;
+  
+layout-grid-mode:char;
+  
+page-break-after:avoid;
+  
+mso-pagination:lines-together;
+  
+mso-outline-level:1;
+  
+line-height:240%;
+  
+font-family:Tahoma;
+  
+mso-fareast-font-family:微软雅黑;
+  
+mso-bidi-font-family:'Times New Roman';
+  
+font-weight:bold;
+  
+font-size:22.0000pt;
+  
+mso-font-kerning:22.0000pt;
+  
+}
+  
+
+  
+span.msoIns{
+  
+mso-style-type:export-only;
+  
+mso-style-name:"";
+  
+text-decoration:underline;
+  
+text-underline:single;
+  
+color:blue;
+  
+}
+  
+
+  
+span.msoDel{
+  
+mso-style-type:export-only;
+  
+mso-style-name:"";
+  
+text-decoration:line-through;
+  
+color:red;
+  
+}
+  
+@page{mso-page-border-surround-header:no;
+  
+	mso-page-border-surround-footer:no;}@page Section0{
+  
+}
+  
 div.Section0{page:Section0;}
 
 # **列表的更多特性**
@@ -122,4 +195,5 @@ list.copy\(\)
 返回列表的浅副本。相当于a\[:\].
 
 列表方法示例：
+
 
